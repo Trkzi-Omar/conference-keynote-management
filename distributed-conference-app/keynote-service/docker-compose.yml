@@ -1,0 +1,12 @@
+
+version: "3.8"
+services:
+  gateway:
+    build: ./gateway-service
+  keynote-service:
+    build: ./keynote-service
+  discovery-service:
+    build: ./discovery-service
+  config-service:
+    build: ./config-service
+
